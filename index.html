@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pchatmanportfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <!-- NAV -->
+    <header>
+      <nav>
+        <a href="#" class="nav-logo">Pedro Chatman</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-eyebrow fade-up">Available for work</div>
+        <h1 class="fade-up">Pedro Chatman,<br /><em> Software Developer | Data Engineer.</em></h1>
+        <p class="hero-desc fade-up">
+          I build systems that power products, from polished web interfaces to scalable
+          APIs, data pipelines, and cloud infrastructure. Focused on reliability,
+          clean architecture, and shipping things people actually use.
+        </p>
+        <div class="hero-cta fade-up">
+          <a href="#projects" class="btn btn-primary">
+            View my work
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </section>
+<div class="section-divider"></div>
+
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <h2 class="section-label">About</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I build and design across the full stack, building clean web interfaces, android apps,
+              designing scalable APIs, and engineering the data pipelines and cloud
+              infrastructure that keep everything running. I care about correctness, observability,
+              and architecture that makes future changes easy.
+            </p>
+          </div>
+          <div>
+            <ul class="skills-list">
+              <li class="skill-row">
+                <span class="skill-name">Backend &amp; Frontend</span>
+                <div class="skill-tags">
+                  <span class="tag">Java</span>
+                  <span class="tag">Spring Boot</span>
+                  <span class="tag">HTML/CSS</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Python</span>
+                </div>
+              </li>
+              <li class="skill-row">
+                <span class="skill-name">Data Engineering</span>
+                <div class="skill-tags">
+                  <span class="tag">Spark</span>
+                  <span class="tag">Fabric</span>
+                  <span class="tag">Airflow</span>
+                  <span class="tag">dbt</span>
+                </div>
+              </li>
+              <li class="skill-row">
+                <span class="skill-name">Databases</span>
+                <div class="skill-tags">
+                  <span class="tag">SQL Server</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">PostgreSQL</span>
+                </div>
+              </li>
+              <li class="skill-row">
+                <span class="skill-name">Cloud &amp; Infrastructure</span>
+                <div class="skill-tags">
+                  <span class="tag">AWS</span>
+                  <span class="tag">Azure</span>
+                  <span class="tag">Docker</span>
+                  <span class="tag">Linux</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- PROJECTS -->
+      <section class="projects" id="projects">
+        <h2 class="section-label" style="padding-top: 5rem;">Projects</h2>
+        <ul class="project-list">
+
+          <li>
+            <a href="https://github.com/pchatman/todo-api" class="project-item" target="_blank"
+              rel="noopener noreferrer">
+              <div>
+                <h3 class="project-title">todo-api</h3>
+                <p class="project-desc">
+                  A REST API for managing to do tasks built with Java Spring Boot. Supports full
+                  CRUD operations including creating, reading, updating, deleting tasks using Spring Data JPA
+                  and H2 in-memory database.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Java</span>
+                  <span class="tag">Spring Boot 4</span>
+                  <span class="tag">H2 Database</span>
+                </div>
+              </div>
+              <span class="project-arrow" aria-hidden="true" focusable="false">↗</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/pchatman/stopwatch_flask" class="project-item" target="_blank"
+              rel="noopener noreferrer">
+              <div>
+                <h3 class="project-title">stopwatch — world clock</h3>
+                <p class="project-desc">
+                  A web-based stopwatch built with Flask and JavaScript.
+                  This app allows users to start, stop, and reset a
+                  stopwatch directly in the browser.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Flask/Jinja2</span>
+                </div>
+              </div>
+              <span class="project-arrow" aria-hidden="true" focusable="false">↗</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/pchatman/nutrition-tracker" class="project-item" target="_blank"
+              rel="noopener noreferrer">
+              <div>
+                <h3 class="project-title">nutrition-tracker</h3>
+                <p class="project-desc">
+                  A full-stack Recipe and Nutrition Tracking application built with Java Spring Boot and Angular. The
+                  application allows
+                  users to manage recipes, track ingredients with nutritional information, log daily meals, and monitor
+                  calorie intake
+                  through a dashboard.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Java 17</span>
+                  <span class="tag">Spring Boot</span>
+                  <span class="tag">Angular</span>
+                  <span class="tag">MySQL 8.0 (Docker)</span>
+                  <span class="tag">TypeScript</span>
+                </div>
+              </div>
+              <span class="project-arrow" aria-hidden="true" focusable="false">↗</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com" class="project-item" target="_blank" rel="noopener noreferrer">
+              <div>
+                <h3 class="project-title">More on GitHub →</h3>
+                <p class="project-desc">Open-source libraries, experiments, and contributions.</p>
+                <div class="project-tags">
+                  <span class="tag">github.com/pchatman</span>
+                </div>
+              </div>
+              <span class="project-arrow" aria-hidden="true" focusable="false">↗</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact" id="contact">
+        <div class="contact-inner">
+          <p class="section-label">Contact</p>
+          <h2>Let's build something.</h2>
+          <p class="contact-sub">
+            Open to freelance projects, full-time roles, and interesting
+            collaborations. I'll get back to you quickly.
+          </p>
+          <address class="contact-links">
+            <a href="#" id="email-link" class="btn btn-primary">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m2 7 10 7 10-7" />
+              </svg>
+              Email me
+            </a>
+          </address>
+        </div>
+      </section>
+
+    </main>
+
+
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <p><small>&copy; <time datetime="2026">2026</time> Pedro Chatman</small></p>
+      <p><small>Built with HTML, CSS &amp; JS</small></p>
+
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+
+</html>
